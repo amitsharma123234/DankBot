@@ -3,12 +3,7 @@
   "description": "DankBot Bruuh",
   "logo": "https://telegra.ph/file/fdb33d0f5a9a7d5c07b74.png",
   "keywords": [
-    "telegram",
-    "userbot",
-    "plugin",
-    "modular",
-    "productivity"
-  ],
+    "telegram"],
   "repository": "https://github.com/amitsharma123234/DankBot/",
   "website": "#TODO",
   "success_url": "#TODO",
