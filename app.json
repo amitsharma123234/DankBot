@@ -1,22 +1,42 @@
 {
-	"name": "DankBot",
-	"description": "Official DankBot on Telegram.",
-	"logo": "https://github.com/Rippr/DankBot/blob/master/branding/logo.png?raw=true",
-	"website": "https://telegram.me/therealdankbot",
-	"image": "heroku/python",
-	"repository": "https://github.com/Rippr/DankBot.git",
-	"keywords": [
-		"python",
-		"dankbot",
-		"bot",
-		"telegram"
-	],
-	"buildpacks": [
-		{
-			"url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku-community/apt.tgz"
-		},
-		{
-			"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-		}
-	]
+  "name": "DankBot",
+  "description": "DankBot Bruuh",
+  "logo": "https://telegra.ph/file/fdb33d0f5a9a7d5c07b74.png",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/amitsharma123234/DankBot/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "stack": "container",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org or @usetgxbot. Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org or @usetgxbot. Please do not steal",
+      "value": ""
+    },
+    "TELEGRAM_TOKEN": {
+      "description": "Bot Token. Get it from @botfather",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+      }
+    }
+  ]
 }
+

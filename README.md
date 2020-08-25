@@ -1,3 +1,5 @@
+Direct deploy
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 # DankBot
 [![Heroku](https://heroku-badge.herokuapp.com/?app=dankbot-tg&style=flat)](https://telegram.me/TheRealDankBot)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)

@@ -50,7 +50,7 @@ dispatcher.add_error_handler(error_handler)
 for handler in handlers:
 	dispatcher.add_handler(handler)
 
-if environ.get('ENVIRONMENT', None) == 'HEROKU':
+if environ.get('ENV', None) == 'HEROKU':
 	print('Starting Webhook')
 	updater.start_webhook(
 		listen='0.0.0.0',
