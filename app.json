@@ -25,12 +25,6 @@
       "description": "Bot Token. Get it from @botfather",
       "value": ""
       }
-    },
-    "addons": [{
-      "plan": "heroku-postgresql",
-      "options": {
-      "version": "12"
-      }
-    ]
+    }
   }
-  
+}
