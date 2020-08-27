@@ -7,7 +7,7 @@
       "bot"
     ],
     "repository": "https://github.com/amitsharma123234/DankBot/",
-    "website": "#TODO"
+    "website": "#TODO",
     "success_url": "#TODO",
     "stack": "container",
     "env": {
